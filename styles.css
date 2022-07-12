@@ -48,9 +48,23 @@ table {
 }
 
 /* CSS for the main page */
+/* misc */
+
+body {
+    color:white ;
+    background-color: black;
+    font-family:  Helvetica, Helvetica, Arial, sans-serif;
+}
+
 /* header */
 #page-banner {
     border: 1px solid red;
+    background-color: black;
+    width: auto;
+    /* height: 40px; */
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
 }
 /* navbar */
 #navbar {
@@ -59,10 +73,23 @@ table {
 /* main */
 #main-index {
     border: 1px solid red;
+    width: auto;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 /* footer */
 #footer-section {
     border: 1px solid violet;
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
 }
 
 /* CSS for the Contact page */
