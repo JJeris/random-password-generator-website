@@ -15,7 +15,9 @@ the Random Password Generator Website project.
 
 """
 import random
-### Assets - lists of characters that will be used in the generation of password.
+"""
+Assets - lists of characters that will be used in the generation of password.
+"""
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase_letters = "abcdefghijklmnopqrstuvwxyz"
 numbers = "1234567890"
