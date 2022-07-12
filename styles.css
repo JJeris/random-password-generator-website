@@ -61,7 +61,7 @@ body {
     border: 1px solid red;
     background-color: black;
     width: auto;
-    /* height: 40px; */
+    height: auto;
     padding: 20px;
     text-align: center;
     font-size: 40px;
@@ -75,14 +75,14 @@ body {
     border: 1px solid red;
     width: auto;
     max-width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 
 }
 /* footer */
 #footer-section {
     border: 1px solid violet;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(23, 23, 23);
     color: whitesmoke;
     height: auto;
     width: auto;
