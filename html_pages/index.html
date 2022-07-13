@@ -9,33 +9,52 @@
     <title>Random Password Generator</title>
 </head>
 <body>
-    <!-- <header id="page-banner">
-        RANDOM PASSWORD GENERATOR
-    </header> -->
     
     <nav id="navbar">
-        <ul>
-            <a href="index.html" id="webpage-logo-link"><img src="../img/logo.jpg" alt="Website logo" id=""></a>
-            <li id="about-me-list-item"><a href="about_us.html">ABOUT US</a></li>
-            <li id="contact-list-item"><a href="">CONTACTS</a></li>
+        
+        <a href="index.html" id="webpage-logo-link"><img src="../img/logo.jpg" alt="Website logo" id="weppage-logo-img"></a>
+        <ul class="nav-links">
+            <li id="contact-list-item"><a href="explination.html">EXPLINATION</a></li>
+            <li id="contact-list-item"><a href="contacts.html">CONTACTS</a></li>
+            <li id="about-me-list-item"><a href="about.html">ABOUT</a></li>
         </ul>
-
+        <!-- <ul class="nav-links">
+            <li id="about-me-list-item"><a href="about.html">ABOUT</a></li>
+            <li id="contact-list-item"><a href="contacts.html">CONTACTS</a></li>
+        </ul> -->
+        <!-- <a href=""><button>BOOM</button></a> -->
     </nav>
+ 
     <div id="main-index">
+        <div id="description">
+            <p>Dont you hate it, when websites have special requirements for how your passwords should look like?</p><br>
+            <p>Are you tired or thinking up new ones on the spot?</p><br>
+            <p>Do you want some random passwords, thatll get you through tough times?</p><br>
+            <p>Than youve come to right page :D</p><br>
+            <p>Simply input the length of the password that you require, and we'll take care of the rest!</p><br>
+        </div>
         <div id="parameter-input-div">
             <form action="" id="generate-password-form">
                 <label for="password-length">How long will the password be?</label><br>
-                <input type="number" id="password-length" name="password-length" placeholder="10"><br><br>
+                <input type="number" id="password-length" name="password-length" placeholder="10" max="100"><br><br>
                 <input type="submit" value="Generate password">
             </form>
         </div>
         <div id="parameter-output-div">
-            <p>New password outputed</p>
+            <p id="generated-password-paragraph">
+                <code>
+            
+                </code>
+            </p>
         </div>
     </div>
-    <footer id="footer-section">
+    
+    
+    <!-- <footer id="footer">
+        <div id="footer-content">
         Created by &copy <a href="https://github.com/JJeris">JJeris</a>. You can find more information on the a
         <a href="">CONTACT</a> page.
-    </footer>
+        </div>
+    </footer> -->
 </body>
 </html>
