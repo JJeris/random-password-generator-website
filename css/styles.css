@@ -48,17 +48,26 @@ table {
 }
 
 /* CSS for the main page */
-/* misc */
 
+/* misc elements and tags*/
 body {
-    color:white ;
+    color:white;
     background-color: black;
     font-family:  Helvetica, Helvetica, Arial, sans-serif;
 }
 
-/* header */
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+a:hover {
+    color: violet;
+}
+
+/* header DEFUNCT*/
 #page-banner {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: black;
     width: auto;
     height: auto;
@@ -66,13 +75,25 @@ body {
     text-align: center;
     font-size: 40px;
 }
+
 /* navbar */
 #navbar {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    margin-bottom: 20px;
+    height: 80px;
 }
+#webpage-logo-link {
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    /* transition: all 0.3s ease 0s; */
+}
+#webpage-logo:hover {}
 /* main */
 #main-index {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: auto;
     max-width: 100%;
     margin-left: 200px;
@@ -81,7 +102,7 @@ body {
 }
 /* footer */
 #footer-section {
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     background-color: rgb(23, 23, 23);
     color: whitesmoke;
     height: auto;

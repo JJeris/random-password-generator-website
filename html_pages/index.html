@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="../img/logo.jpg">
     <title>Random Password Generator</title>
 </head>
 <body>
-    <header id="page-banner">
+    <!-- <header id="page-banner">
         RANDOM PASSWORD GENERATOR
-    </header>
+    </header> -->
+    
     <nav id="navbar">
         <ul>
+            <a href="index.html" id="webpage-logo-link"><img src="../img/logo.jpg" alt="Website logo" id=""></a>
             <li id="about-me-list-item"><a href="about_us.html">ABOUT US</a></li>
             <li id="contact-list-item"><a href="">CONTACTS</a></li>
         </ul>
-        navigation, an about me and a contact list
+
     </nav>
     <div id="main-index">
         <div id="parameter-input-div">
-            <label for="1"></label>
-            <input type="text">
-            <label for="2"></label>
-            <input type="text">
-            <label for="3"></label>
-            <input type="text">
+            <form action="" id="generate-password-form">
+                <label for="password-length">How long will the password be?</label><br>
+                <input type="number" id="password-length" name="password-length" placeholder="10"><br><br>
+                <input type="submit" value="Generate password">
+            </form>
         </div>
         <div id="parameter-output-div">
             <p>New password outputed</p>
         </div>
     </div>
     <footer id="footer-section">
-        Created by &copyright JJeris. You can find more information on the a
+        Created by &copy <a href="https://github.com/JJeris">JJeris</a>. You can find more information on the a
         <a href="">CONTACT</a> page.
     </footer>
 </body>
