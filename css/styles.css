@@ -115,7 +115,7 @@ a:active {
 
 #main-index {
     /* border: 1px solid red; */
-    /* margin-top: 20px; */
+    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 235px;
     margin-right: 235px;
@@ -141,6 +141,10 @@ a:active {
     font-weight: bold;
     margin-bottom: 30px;
     text-shadow: 3px 3px violet;
+    transition: all 0.3s ease 0s
+}
+#heading-mainpage:hover {
+    text-shadow: none;
 }
 
 #description-elements {
@@ -161,6 +165,11 @@ a:active {
 .label-generate-password-form {
     font-weight: bold;
     text-shadow: 1px 1px violet;
+    transition: all 0.3s ease 0s
+}
+
+.label-generate-password-form:hover {
+    text-shadow: none;
 }
 #password-length {
     /* background-color: rgba(238, 130, 238, 0.4); */

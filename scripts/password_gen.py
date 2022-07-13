@@ -32,7 +32,7 @@ which he wishes to generate.
 
 """
 def Add_length():
-    password_length = int(input("Add length?"))
+    password_length = int(input("Add length:"))
     while password_length <= 0:
         print("Input invalid")
         password_length = int(input("Add length?"))
