@@ -73,10 +73,11 @@ body {
 a {
     text-decoration: none;
     color: white;
-    transition: all 0.3s ease 0s;
+    /* color: rgba(238, 130, 238), 0.5; */
+    /* transition: all 0.3s ease 0s; */
 }
 a:hover {
-    color: violet;
+    color: rgb(238, 130, 238);
 }
 a:active {
     color: rgb(85, 85, 255);
@@ -90,12 +91,13 @@ a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-    height: 80px;
+    margin-bottom: 10px;
+    height: 110px;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
+    border-bottom: 5px solid violet;
 }
 #webpage-logo-link {
     float: left;
@@ -103,6 +105,7 @@ a:active {
 .nav-links li{
     display: inline-block;
     padding: 0px 20px;
+    font-weight: bold;
 }
 #navbar li {
     list-style: none;
@@ -111,22 +114,101 @@ a:active {
 /* main */
 
 #main-index {
-    
-    border: 1px solid red;
-    /* margin-top: 20px;
+    /* border: 1px solid red; */
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     margin-left: 235px;
-    margin-right: 235px; */
+    margin-right: 235px;
+}
+
+#description {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#description-elements {
+    font-size: 20px; 
+    /* 18px */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#heading-mainpage {
+    text-align: center;
+    font-size: 40px;
+    /* 48px */
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px violet;
+}
+
+#description-elements {
+    /* text-align: center; */
+}
+
+#parameter-input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
-#description {
-    border: 1px solid blue;
+#generate-password-form {
+    text-align: center;
 }
-#generated-password-paragraph {
-    /* font-size: 30px; */
+.label-generate-password-form {
+    font-weight: bold;
+    text-shadow: 1px 1px violet;
+}
+#password-length {
+    /* background-color: rgba(238, 130, 238, 0.4); */
+    /* color: white; */
+    border-style: none;
+    margin-top: 12px;
+    /* transition: all 0.3s ease 0s; */
+}
+/* #password-length:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#password-length:active{
+    background-color: rgba(255, 255, 255, 1);
+} */
+
+
+#generate-password-button {
+    border-style: none;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+
+    /* border: 1px solid rgba(238, 130, 238, 1); */
+}
+#generate-password-button:hover {
+    color: rgba(238, 130, 238, 1);
+    border: 1px solid rgba(238, 130, 238, 1);
+}
+
+#parameter-output-div {
+    border: 3px solid violet;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.generated-password-paragraph {
+    font-size: 30px;
     /* height: 10px; */
     /* width: auto; */
-    border: 1px solid red;
+    /* border: 1px solid violet; */
+    width: 100%;
+    height: fit-content;
+    
 }
 
 
