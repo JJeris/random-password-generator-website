@@ -159,7 +159,7 @@ a:active {
     margin-bottom: 20px;
 
 }
-#generate-password-form {
+#form {
     text-align: center;
 }
 .label-generate-password-form {
@@ -187,7 +187,7 @@ a:active {
 } */
 
 
-#generate-password-button {
+#submit {
     border-style: none;
     padding: 5px;
     font-size: 15px;
@@ -199,7 +199,7 @@ a:active {
 
     /* border: 1px solid rgba(238, 130, 238, 1); */
 }
-#generate-password-button:hover {
+#submit:hover {
     color: rgba(238, 130, 238, 1);
     border: 1px solid rgba(238, 130, 238, 1);
 }
@@ -210,7 +210,7 @@ a:active {
     border-radius: 5px;
     
 }
-.generated-password-paragraph {
+#generated-password-paragraph {
     font-size: 30px;
     /* height: 10px; */
     /* width: auto; */

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    
     <link rel="shortcut icon" type="image/png" href="../img/logo.jpg">
     <title>Random Password Generator</title>
 </head>
@@ -36,24 +37,20 @@
             </div>
         </div>
         <div id="parameter-input-div">
-            <form action="" id="generate-password-form">
-                <label for="password-length" class="label-generate-password-form">PASSWORD LENGTH</label><br>
+            <!-- <form action="index.html" method="GET" id="generate-password-form"> -->
 
-                <input type="number" id="password-length" name="password-length" placeholder="                >=100" max="100"><br><br>
-                
-                <input type="submit" value="Generate password" id="generate-password-button">
+            <form id="form">
+                <label for="password-length" class="label-generate-password-form">PASSWORD LENGTH</label><br>
+                <input type="number" id="password-length" name="password-length" placeholder=">=100" max="100" required><br><br>
+                <input type="submit" value="Generate password" id="submit">
+                <!-- <input type="submit" value="Generate password" id="generate-password-button"> -->
             </form>
         </div>
         <div id="parameter-output-div">
-            <p class="generated-password-paragraph">
-                ov\@msvGL#mt50C0p=z6=kJ[Y$yVcRfU~3Kjpc~%uO
+            <p id="generated-password-paragraph">
+
             </p>
-            <p class="generated-password-paragraph">
-                z1C%]J6Pg6,a8qtOiyWRJw3)7@+8;Rhl5a|)7nl50.
-            </p>
-            <p class="generated-password-paragraph">
-                0bks220^1;CHJjDi
-            </p>
+            
         </div>
     </div>
     
@@ -64,5 +61,7 @@
         <a href="">CONTACT</a> page.
         </div>
     </footer> -->
+    <script src="../scripts/password_generator.js"></script> 
+    <!-- At the end of body, so that there isnt a null ERROR from js -->
 </body>
 </html>
