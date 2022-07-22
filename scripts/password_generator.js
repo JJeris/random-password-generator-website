@@ -1,7 +1,7 @@
 var uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowercase_letters = "abcdefghijklmnopqrstuvwxyz";
 var numbers = "1234567890";
-var symbols = "`~!@#$%^&*()_+-={|[]\:;<>?,./:";
+var symbols = "`~!@#$%^&*()_+-={}[]|\;:',<.>/?";
 
 var form = document.getElementById('form')
 form.addEventListener('submit', function(event){
@@ -11,8 +11,9 @@ form.addEventListener('submit', function(event){
     console.log(password_length);
 
     var password_output = "";
-    for (i = 0; i <= password_length; i++){
-        var x = Math.floor(Math.random() * 3);
+    for (i = 0; i <= password_length-1; i++){
+        var x = Math.floor(Math.random() *4);
+        console.log(x);
         if (x==0){
             var x0 = Math.floor(Math.random() * uppercase_letters.length)
             password_output = password_output+uppercase_letters[x0]
@@ -32,8 +33,11 @@ form.addEventListener('submit', function(event){
     }
     console.log(password_output);
     document.getElementById("generated-password-paragraph").innerHTML = password_output;
-    // DIFF FONT PLEASE
+    
 })
+
+
+
 // if(form){
 //     form.addEventListener('submit', function(event){
 //         event.preventDefault(); // Doesnt default form autosubmitting.
