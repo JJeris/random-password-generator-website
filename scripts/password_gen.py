@@ -61,7 +61,6 @@ def Generate_password():
     password_output = ""
     for i in range(password_length):
         x = random.randrange (1, 5)
-        #print(out)
         if x==1:
             x1 = random.randrange(len(uppercase_letters))
             password_output += uppercase_letters[x1]

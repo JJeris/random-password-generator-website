@@ -43,15 +43,13 @@
 
             <form id="form">
                 <label for="password-length" class="label-generate-password-form">PASSWORD LENGTH</label><br>
-                <input type="number" id="password-length" name="password-length" placeholder=">=100" max="100" required><br><br>
+                <input type="number" id="password-length" name="password-length" placeholder="<=100" max="100" min="1" required><br><br>
                 <input type="submit" value="Generate password" id="submit">
                 <!-- <input type="submit" value="Generate password" id="generate-password-button"> -->
             </form>
         </div>
         <div id="parameter-output-div">
-            <p id="generated-password-paragraph">
-
-            </p>
+            <p id="generated-password-paragraph"></p>
             
         </div>
     </div>

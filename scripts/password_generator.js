@@ -1,7 +1,8 @@
-var uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lowercase_letters = "abcdefghijklmnopqrstuvwxyz";
-var numbers = "1234567890";
-var symbols = "`~!@#$%^&*()_+-={}[]|\;:',<.>/?";
+const uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lowercase_letters = "abcdefghijklmnopqrstuvwxyz";
+const numbers = "1234567890";
+// const symbols = "`~!@#$%^&*()_+-={}[]|\;:',<.>/?";
+const symbols = "`~!@#$%^&*()_+-={}[];:',.?";
 
 var form = document.getElementById('form')
 form.addEventListener('submit', function(event){
