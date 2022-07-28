@@ -4,35 +4,37 @@ const numbers = "1234567890";
 // const symbols = "`~!@#$%^&*()_+-={}[]|\;:',<.>/?";
 const symbols = "`~!@#$%^&*()_+-={}[];:',.?";
 
-var form = document.getElementById('form')
+let form = document.getElementById('form')
 form.addEventListener('submit', function(event){
     event.preventDefault();
-    var password_length = document.getElementById('password-length').value;
+    let password_length = document.getElementById('password-length').value;
 
     console.log(password_length);
 
-    var password_output = "";
+    let password_output = "";
     for (i = 0; i <= password_length-1; i++){
-        var x = Math.floor(Math.random() *4);
+        let x = Math.floor(Math.random() *4);
         console.log(x);
         if (x==0){
-            var x0 = Math.floor(Math.random() * uppercase_letters.length)
+            let x0 = Math.floor(Math.random() * uppercase_letters.length)
             password_output = password_output+uppercase_letters[x0]
         }
         if (x==1){
-            var x1 = Math.floor(Math.random() * lowercase_letters.length)
+            let x1 = Math.floor(Math.random() * lowercase_letters.length)
             password_output = password_output+lowercase_letters[x1]
         }
         if (x==2){
-            var x2 = Math.floor(Math.random() * numbers.length)
+            let x2 = Math.floor(Math.random() * numbers.length)
             password_output = password_output+numbers[x2]
         }
         if (x==3){
-            var x3 = Math.floor(Math.random() * symbols.length)
+            let x3 = Math.floor(Math.random() * symbols.length)
             password_output = password_output+symbols[x3]
         }
     }
     console.log(password_output);
+
+    // Add functionality that segments the output into sub paragraph tags, centered and textalign centered on the webpage.
     document.getElementById("generated-password-paragraph").innerHTML = password_output;
     
 })

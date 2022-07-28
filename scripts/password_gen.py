@@ -1,8 +1,8 @@
 """
 password_gen.py
-Made by JJeris, dat: unknown
+Made by JJeris
 
-About me:
+About:
 
 Programs purpose is to create a random password (a string of characters that consist of 
 letters, both uppercase and lowercase, numbers and symbols). The passwords are gibberish
