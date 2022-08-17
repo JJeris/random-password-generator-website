@@ -36,7 +36,7 @@ def Add_length():
     while password_length <= 0:
         print("Input invalid")
         password_length = int(input("Add length?"))
-    print("Length is", password_length)
+##    print("Length is", password_length)
     return password_length
 
 
@@ -76,3 +76,4 @@ def Generate_password():
     print(password_output)
 
 Generate_password()
+    

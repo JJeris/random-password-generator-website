@@ -1,9 +1,4 @@
-
-
-
-
-
-//Assets used to gen. password (i.e. letters, numbers, symbols)
+// Assets used to gen. password (i.e. letters, numbers, symbols)
 var txt0 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var txt1 = "abcdefghijklmnopqrstuvwxyz"
 var txt2 = "1234567890"
@@ -12,7 +7,7 @@ var txt3 = "`~!@#$%^&*()_+-={|[];<>?,./:"
 
 //Function addlen(): gives prompt, asking the size (length) of the password.
 function addlen(){
-    var a = prompt("Addlen?")
+    var a = prompt("Addlen?");
     if (a <= 0){
         console.log("Input invalid")
         addlen()

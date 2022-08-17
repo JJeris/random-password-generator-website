@@ -1,4 +1,5 @@
-const uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// Change let names to the standard.
+const UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercase_letters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "1234567890";
 // const symbols = "`~!@#$%^&*()_+-={}[]|\;:',<.>/?";
@@ -16,8 +17,8 @@ form.addEventListener('submit', function(event){
         let x = Math.floor(Math.random() *4);
         console.log(x);
         if (x==0){
-            let x0 = Math.floor(Math.random() * uppercase_letters.length)
-            password_output = password_output+uppercase_letters[x0]
+            let x0 = Math.floor(Math.random() * UPPERCASE_LETTERS.length)
+            password_output = password_output+UPPERCASE_LETTERS[x0]
         }
         if (x==1){
             let x1 = Math.floor(Math.random() * lowercase_letters.length)
