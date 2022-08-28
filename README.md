@@ -3,7 +3,7 @@ A website that generates random combinations of letters, symbols and numbers, th
 
 *This is version 1.0, that is made by using only the most basic tools (html, css, js), as in, no Bootstrap or frameworks were used. Later editions will use an MVC, such as the Laravel Framework.
 
-## Note: Project hasn't been yet finished.
+## Note: Project isn't finished.
 
 todo:
 - need to finish the other pages of the website;
