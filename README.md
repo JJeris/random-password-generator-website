@@ -8,4 +8,4 @@ A website that generates random combinations of letters, symbols and numbers, th
 todo:
 - need to finish the other pages of the website;
 - need to rework the JS and HTML components for the main functionality of the passwords output (has to fit its given area);
-- has to have bugs ironed out and logo/favicon reworked and moved past a prototype phase.
+- bugs need to be ironed out and logo/favicon reworked.
