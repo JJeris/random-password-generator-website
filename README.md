@@ -5,7 +5,7 @@ A website that generates random combinations of letters, symbols and numbers, th
 
 ## Note: Project isn't finished.
 
-## todo:
+### todo:
 - need to finish the other pages of the website;
 - need to rework the JS and HTML components for the main functionality of the passwords output (has to fit its given area);
 - bugs need to be ironed out and logo/favicon reworked.
