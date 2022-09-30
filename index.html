@@ -4,6 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <title>Random Password Generator | JJeris</title>
+</head>
+<body>
+    <header class="header">
+        <div class="inner-column">
+            <h1 class="logo">Random Password Generator</h1>
+            <ul class="calm-voice">   
+                <li><a href="#info">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="inner-column">
+                <div class="text-content">
+                    <h1 class="loud-voice">GENERATE YOUR OWN PASSWORD</h1>
+                    <P class="calm-voice">
+                        Have you forgotten your password again and are too tired to think up a new one? 
+                        Simply generate a new password with the input field below!
+                    </P>
+
+                </div>
+            </div>
+        </section>
+        <section class="generate">
+            <div class="inner-column">
+                <div class="text-content"> 
+                    <form id="form">
+                        <label for="password-length" class="loud-voice-small">
+                            PASSWORD LENGTH
+                        </label>
+
+                        <input type="number" id="password-length" class="length-input" name="password-length" placeholder="<=1000000" max="1000000" min="1" required>
+
+                        <input type="submit" value="GENERATE" class="submit"> 
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="output">
+            <div class="inner-column">
+                <div class="text-content" id="generated-password-paragraph">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="info" class="calm-voice">
+        <div class="inner-column">
+            <ul>
+                <li class="contact-link"><a href="https://github.com/JJeris"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo"></a></li>
+                <li class="contact-link"><a href="https://www.linkedin.com/in/johans-justs-eris-99012a222/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts/password_generator.js"></script> 
+    <!-- At the end of body, so that there isnt a null ERROR from js -->
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,13 +92,13 @@
             <li id="contact-list-item"><a href="explanation.html">EXPLANATION</a></li>
             <li id="contact-list-item"><a href="contacts.html">CONTACTS</a></li>
             <li id="about-me-list-item"><a href="about.html">ABOUT</a></li>
-        </ul>
+        </ul> -->
         <!-- <ul class="nav-links">
             <li id="about-me-list-item"><a href="about.html">ABOUT</a></li>
             <li id="contact-list-item"><a href="contacts.html">CONTACTS</a></li>
         </ul> -->
         <!-- <a href=""><button>BOOM</button></a> -->
-    </nav>
+    <!-- </nav>
  
     <div id="main-index">
         <div id="description">
@@ -38,22 +110,22 @@
                 <p>Simply input the length of the password that you require, and we'll take care of the rest!</p><br>
             </div>
         </div>
-        <div id="parameter-input-div">
+        <div id="parameter-input-div"> -->
             <!-- <form action="index.html" method="GET" id="generate-password-form"> -->
 
-            <form id="form">
+            <!-- <form id="form">
                 <label for="password-length" class="label-generate-password-form">PASSWORD LENGTH</label><br>
                 <input type="number" id="password-length" name="password-length" placeholder="<=100" max="100" min="1" required><br><br>
-                <input type="submit" value="Generate password" id="submit">
+                <input type="submit" value="Generate password" id="submit"> -->
                 <!-- <input type="submit" value="Generate password" id="generate-password-button"> -->
-            </form>
+            <!-- </form>
         </div>
         <div id="parameter-output-div">
             <p id="generated-password-paragraph"></p>
             
         </div>
     </div>
-    
+     -->
     
     <!-- <footer id="footer">
         <div id="footer-content">
@@ -61,7 +133,7 @@
         <a href="">CONTACT</a> page.
         </div>
     </footer> -->
-    <script src="scripts/password_generator.js"></script> 
+    <!-- <script src="scripts/password_generator.js"></script>  -->
     <!-- At the end of body, so that there isnt a null ERROR from js -->
-</body>
-</html>
+<!-- </body>
+</html> -->
