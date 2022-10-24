@@ -15,7 +15,7 @@
             <h1 class="logo">Random Password Generator</h1>
             <ul class="calm-voice">   
                 <li><a href="#info">CONTACT</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <!-- <li><a href="about.html">ABOUT</a></li> -->
             </ul>
         </div>
         
@@ -43,7 +43,7 @@
 
                         <input type="number" id="password-length" class="length-input" name="password-length" placeholder="<=1000000" max="1000000" min="1" required>
 
-                        <input type="submit" value="GENERATE" class="submit"> 
+                        <input type="submit" value="GENERATE" class="submit btn"> 
                     </form>
                     
                 </div>
@@ -51,8 +51,12 @@
         </section>
         <section class="output">
             <div class="inner-column">
-                <div class="text-content" id="generated-password-paragraph">
-                </div>
+                <!-- https://fontawesome.com/icons/copy?s=solid&f=classic -->
+                <button class="copy btn" id="copy-text-btn">
+                    COPY
+                </button>
+                <p class="text-content" id="generated-password-paragraph">
+                </p>
             </div>
         </section>
     </main>
@@ -64,7 +68,11 @@
             </ul>
         </div>
     </footer>
-    <script src="scripts/password_generator.js"></script> 
+
+    <!-- SCRIPTS -->
     <!-- At the end of body, so that there isnt a null ERROR from js -->
+    <script src="scripts/password_generator.js"></script> 
+    <script src="scripts/copy_password.js"></script>
+    
 </body>
 </html>

@@ -85,12 +85,22 @@ img {
 
 /* NEED TO FIX SO FOOTER DOESN GET TALLER */
 .contact-link a:hover {
-    max-width: 55px;
+    /* max-width: 55px; */
 }
 
 img:hover {
-    max-width: 55px;
+    /* max-width: 55px; */
+    opacity: 80%;
 
+}
+.btn:hover {
+    border-color: black;
+}
+
+.btn:active {
+    /* color: red; */
+    border: 1px solid rgb(174, 174, 174);
+    opacity: 60%;
 }
 
 /* Structure */
@@ -190,7 +200,7 @@ footer .inner-column {
 
 header {
     background-color: lightgrey;
-    border-bottom: 1px solid rgb(177, 234, 251);;
+    border-bottom: 5px solid rgb(177, 234, 251);;
 }
 
 header .inner-column {
@@ -277,7 +287,16 @@ header .inner-column ul {
     border-radius: 3px;
 }
 
+
 /* --Output */
+.copy {
+    border: 1px solid rgb(174, 174, 174);
+    background-color: white;
+    text-align: center;
+    padding: 6px;
+    border-radius: 3px;
+}
+
 .output .text-content {
     /* overflow:hidden; */
     /* word-wrap: break-word; */
