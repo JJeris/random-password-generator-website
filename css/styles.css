@@ -181,6 +181,12 @@ footer .inner-column {
     line-height: 1.3;
     font-family: helvetica, sans-serif;
 }
+.calm-voice-small {
+    font-size: 1rem;
+    line-height: 1.3;
+    font-family: helvetica, sans-serif;
+}
+
 
 /* Components */
 
@@ -339,16 +345,25 @@ footer .inner-column {
     /* flex-direction: row; */
     justify-content: center;
     align-items: center;
-    
+}
 
+footer .inner-column {
+/* Makes the footer elements flow as a column. */
+    flex-direction: column;
 }
 
 footer .inner-column ul {
     text-align: center;
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
 }
 
+footer .inner-column .text-content {
+    margin-top: 1em;
+    /* opacity: 80%; */
+    color: rgb(81, 81, 81);
+    /* display: none; */
+}
 
 
 
